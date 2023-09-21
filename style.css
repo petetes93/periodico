@@ -111,6 +111,22 @@ img {
     margin: 10px auto;
 }
 
+
+main {
+    column-count: 2;
+    column-gap: 50px; 
+}
+
+section {
+    display: inline-block;
+    width: 100%;
+    break-inside: avoid;
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 0.5px solid #000; 
+    margin: 20px 0; 
+}
+
 div.top{
     position:fixed;
     bottom:10px;
